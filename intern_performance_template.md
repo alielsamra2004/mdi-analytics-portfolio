@@ -192,33 +192,5 @@ This template helps interns document achievements, track deliverables, and refle
 
 ---
 
-## Appendix: Evidence Links
 
-### Code Repositories
-- [GitHub repo for project X]
-- [Internal GitLab for project Y]
 
-### Documentation
-- [Wiki page: KPI Dictionary]
-- [Confluence: Funnel Analysis Playbook]
-
-### Presentations
-- [Slides: Week 4 Sprint Review]
-- [Recording: Product Team Presentation]
-
-### Dashboards & Reports
-- [Streamlit Dashboard URL]
-- [Looker Report Link]
-
----
-
-## Notes & Observations
-
-[Free-form space for additional thoughts, interesting observations, ideas for future work, or things that don't fit into structured sections above]
-
----
-
-**Template Version:** 1.0  
-**Last Updated:** November 2024  
-**Owner:** People Operations Team  
-**Questions?** Contact: hr-interns@mdi.com
