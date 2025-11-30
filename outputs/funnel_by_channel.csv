@@ -1,0 +1,6 @@
+channel,registration_start,verification_submitted,kyc_approved,account_created,first_transaction,week1_active,activation_rate,week1_retention
+organic,2080,1820,874,632,445,245,70.41,55.06
+paid_search,1484,1305,549,411,276,143,67.15,51.81
+paid_social,2402,2048,722,471,281,122,59.66,43.42
+partnership,981,877,465,364,263,146,72.25,55.51
+referral,3053,2792,1714,1379,1121,738,81.29,65.83

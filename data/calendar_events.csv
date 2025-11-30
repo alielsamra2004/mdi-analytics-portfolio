@@ -1,0 +1,406 @@
+event_id,date,category,duration_hours,description
+CAL00000,2024-01-01,deep_work,0.5,Deep Work session
+CAL00001,2024-01-01,training,1.0,Training session
+CAL00002,2024-01-01,admin,1.5,Admin session
+CAL00003,2024-01-01,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00004,2024-01-01,deep_work,1.5,Deep Work session
+CAL00005,2024-01-01,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00006,2024-01-02,admin,1.0,Admin session
+CAL00007,2024-01-02,deep_work,1.0,Deep Work session
+CAL00008,2024-01-02,admin,1.5,Admin session
+CAL00009,2024-01-02,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00010,2024-01-02,admin,2.0,Admin session
+CAL00011,2024-01-02,training,1.0,Training session
+CAL00012,2024-01-02,training,1.0,Training session
+CAL00013,2024-01-02,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00014,2024-01-03,documentation,1.0,Documentation session
+CAL00015,2024-01-03,deep_work,1.0,Deep Work session
+CAL00016,2024-01-03,deep_work,1.5,Deep Work session
+CAL00017,2024-01-03,deep_work,1.5,Deep Work session
+CAL00018,2024-01-03,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00019,2024-01-03,admin,1.0,Admin session
+CAL00020,2024-01-04,training,0.5,Training session
+CAL00021,2024-01-04,deep_work,1.0,Deep Work session
+CAL00022,2024-01-04,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00023,2024-01-04,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00024,2024-01-04,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00025,2024-01-04,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00026,2024-01-04,deep_work,1.5,Deep Work session
+CAL00027,2024-01-04,admin,1.0,Admin session
+CAL00028,2024-01-05,documentation,1.5,Documentation session
+CAL00029,2024-01-05,deep_work,0.5,Deep Work session
+CAL00030,2024-01-05,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00031,2024-01-05,training,0.5,Training session
+CAL00032,2024-01-05,admin,1.0,Admin session
+CAL00033,2024-01-05,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00034,2024-01-05,admin,1.5,Admin session
+CAL00035,2024-01-05,deep_work,1.5,Deep Work session
+CAL00036,2024-01-08,documentation,1.0,Documentation session
+CAL00037,2024-01-08,deep_work,2.0,Deep Work session
+CAL00038,2024-01-08,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00039,2024-01-08,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00040,2024-01-08,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00041,2024-01-09,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00042,2024-01-09,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00043,2024-01-09,training,0.5,Training session
+CAL00044,2024-01-09,documentation,1.0,Documentation session
+CAL00045,2024-01-10,admin,1.5,Admin session
+CAL00046,2024-01-10,deep_work,2.0,Deep Work session
+CAL00047,2024-01-10,deep_work,1.0,Deep Work session
+CAL00048,2024-01-10,deep_work,1.0,Deep Work session
+CAL00049,2024-01-10,training,0.5,Training session
+CAL00050,2024-01-10,deep_work,1.0,Deep Work session
+CAL00051,2024-01-10,deep_work,1.5,Deep Work session
+CAL00052,2024-01-11,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00053,2024-01-11,admin,0.5,Admin session
+CAL00054,2024-01-11,training,1.0,Training session
+CAL00055,2024-01-11,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00056,2024-01-11,deep_work,1.0,Deep Work session
+CAL00057,2024-01-12,training,0.5,Training session
+CAL00058,2024-01-12,documentation,1.0,Documentation session
+CAL00059,2024-01-12,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00060,2024-01-12,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00061,2024-01-12,deep_work,1.0,Deep Work session
+CAL00062,2024-01-12,documentation,0.5,Documentation session
+CAL00063,2024-01-12,deep_work,0.5,Deep Work session
+CAL00064,2024-01-15,deep_work,1.0,Deep Work session
+CAL00065,2024-01-15,deep_work,2.0,Deep Work session
+CAL00066,2024-01-15,training,1.0,Training session
+CAL00067,2024-01-15,deep_work,1.0,Deep Work session
+CAL00068,2024-01-15,deep_work,2.0,Deep Work session
+CAL00069,2024-01-16,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00070,2024-01-16,training,1.0,Training session
+CAL00071,2024-01-16,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00072,2024-01-16,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00073,2024-01-17,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00074,2024-01-17,admin,1.5,Admin session
+CAL00075,2024-01-17,deep_work,0.5,Deep Work session
+CAL00076,2024-01-17,deep_work,0.5,Deep Work session
+CAL00077,2024-01-17,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00078,2024-01-17,admin,1.5,Admin session
+CAL00079,2024-01-18,deep_work,0.5,Deep Work session
+CAL00080,2024-01-18,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00081,2024-01-18,training,2.0,Training session
+CAL00082,2024-01-18,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00083,2024-01-19,deep_work,0.5,Deep Work session
+CAL00084,2024-01-19,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00085,2024-01-19,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00086,2024-01-19,deep_work,1.0,Deep Work session
+CAL00087,2024-01-19,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00088,2024-01-19,documentation,1.0,Documentation session
+CAL00089,2024-01-19,deep_work,1.0,Deep Work session
+CAL00090,2024-01-19,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00091,2024-01-22,deep_work,0.5,Deep Work session
+CAL00092,2024-01-22,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00093,2024-01-22,deep_work,2.0,Deep Work session
+CAL00094,2024-01-22,documentation,2.0,Documentation session
+CAL00095,2024-01-22,deep_work,1.0,Deep Work session
+CAL00096,2024-01-23,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00097,2024-01-23,deep_work,1.0,Deep Work session
+CAL00098,2024-01-23,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00099,2024-01-23,deep_work,2.0,Deep Work session
+CAL00100,2024-01-24,admin,2.0,Admin session
+CAL00101,2024-01-24,deep_work,2.0,Deep Work session
+CAL00102,2024-01-24,deep_work,1.5,Deep Work session
+CAL00103,2024-01-24,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00104,2024-01-24,deep_work,1.0,Deep Work session
+CAL00105,2024-01-24,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00106,2024-01-24,deep_work,0.5,Deep Work session
+CAL00107,2024-01-25,deep_work,2.0,Deep Work session
+CAL00108,2024-01-25,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00109,2024-01-25,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00110,2024-01-25,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00111,2024-01-26,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00112,2024-01-26,training,1.0,Training session
+CAL00113,2024-01-26,admin,1.0,Admin session
+CAL00114,2024-01-26,training,1.5,Training session
+CAL00115,2024-01-29,deep_work,1.5,Deep Work session
+CAL00116,2024-01-29,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00117,2024-01-29,deep_work,1.0,Deep Work session
+CAL00118,2024-01-29,admin,1.5,Admin session
+CAL00119,2024-01-29,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00120,2024-01-29,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00121,2024-01-29,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00122,2024-01-29,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00123,2024-01-30,deep_work,1.0,Deep Work session
+CAL00124,2024-01-30,deep_work,0.5,Deep Work session
+CAL00125,2024-01-30,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00126,2024-01-30,documentation,2.0,Documentation session
+CAL00127,2024-01-30,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00128,2024-01-30,admin,1.0,Admin session
+CAL00129,2024-01-30,deep_work,1.0,Deep Work session
+CAL00130,2024-01-30,deep_work,0.5,Deep Work session
+CAL00131,2024-01-31,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00132,2024-01-31,admin,2.0,Admin session
+CAL00133,2024-01-31,deep_work,1.0,Deep Work session
+CAL00134,2024-01-31,training,1.5,Training session
+CAL00135,2024-01-31,admin,1.0,Admin session
+CAL00136,2024-01-31,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00137,2024-02-01,deep_work,1.0,Deep Work session
+CAL00138,2024-02-01,deep_work,1.0,Deep Work session
+CAL00139,2024-02-01,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00140,2024-02-01,deep_work,0.5,Deep Work session
+CAL00141,2024-02-01,admin,1.5,Admin session
+CAL00142,2024-02-01,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00143,2024-02-01,deep_work,1.0,Deep Work session
+CAL00144,2024-02-01,training,0.5,Training session
+CAL00145,2024-02-02,deep_work,1.0,Deep Work session
+CAL00146,2024-02-02,documentation,0.5,Documentation session
+CAL00147,2024-02-02,admin,1.0,Admin session
+CAL00148,2024-02-02,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00149,2024-02-02,admin,1.0,Admin session
+CAL00150,2024-02-02,deep_work,0.5,Deep Work session
+CAL00151,2024-02-02,deep_work,1.0,Deep Work session
+CAL00152,2024-02-02,deep_work,0.5,Deep Work session
+CAL00153,2024-02-05,deep_work,0.5,Deep Work session
+CAL00154,2024-02-05,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00155,2024-02-05,deep_work,1.0,Deep Work session
+CAL00156,2024-02-05,deep_work,1.0,Deep Work session
+CAL00157,2024-02-05,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00158,2024-02-05,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00159,2024-02-05,admin,0.5,Admin session
+CAL00160,2024-02-06,admin,2.0,Admin session
+CAL00161,2024-02-06,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00162,2024-02-06,deep_work,1.0,Deep Work session
+CAL00163,2024-02-06,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00164,2024-02-06,training,1.0,Training session
+CAL00165,2024-02-07,deep_work,1.5,Deep Work session
+CAL00166,2024-02-07,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00167,2024-02-07,deep_work,1.0,Deep Work session
+CAL00168,2024-02-07,documentation,1.5,Documentation session
+CAL00169,2024-02-07,deep_work,1.5,Deep Work session
+CAL00170,2024-02-07,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00171,2024-02-07,admin,1.5,Admin session
+CAL00172,2024-02-08,deep_work,1.0,Deep Work session
+CAL00173,2024-02-08,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00174,2024-02-08,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00175,2024-02-08,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00176,2024-02-08,deep_work,1.5,Deep Work session
+CAL00177,2024-02-08,training,1.0,Training session
+CAL00178,2024-02-09,deep_work,1.0,Deep Work session
+CAL00179,2024-02-09,admin,1.0,Admin session
+CAL00180,2024-02-09,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00181,2024-02-09,documentation,1.0,Documentation session
+CAL00182,2024-02-09,training,1.0,Training session
+CAL00183,2024-02-09,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00184,2024-02-12,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00185,2024-02-12,deep_work,1.0,Deep Work session
+CAL00186,2024-02-12,deep_work,2.0,Deep Work session
+CAL00187,2024-02-12,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00188,2024-02-13,deep_work,1.0,Deep Work session
+CAL00189,2024-02-13,documentation,0.5,Documentation session
+CAL00190,2024-02-13,documentation,1.0,Documentation session
+CAL00191,2024-02-13,deep_work,0.5,Deep Work session
+CAL00192,2024-02-13,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00193,2024-02-13,deep_work,2.0,Deep Work session
+CAL00194,2024-02-13,deep_work,0.5,Deep Work session
+CAL00195,2024-02-14,deep_work,0.5,Deep Work session
+CAL00196,2024-02-14,training,0.5,Training session
+CAL00197,2024-02-14,training,1.0,Training session
+CAL00198,2024-02-14,deep_work,2.0,Deep Work session
+CAL00199,2024-02-14,deep_work,1.0,Deep Work session
+CAL00200,2024-02-15,deep_work,2.0,Deep Work session
+CAL00201,2024-02-15,documentation,1.5,Documentation session
+CAL00202,2024-02-15,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00203,2024-02-15,admin,0.5,Admin session
+CAL00204,2024-02-15,deep_work,0.5,Deep Work session
+CAL00205,2024-02-15,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00206,2024-02-15,deep_work,1.0,Deep Work session
+CAL00207,2024-02-15,deep_work,1.0,Deep Work session
+CAL00208,2024-02-16,deep_work,1.5,Deep Work session
+CAL00209,2024-02-16,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00210,2024-02-16,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00211,2024-02-16,training,2.0,Training session
+CAL00212,2024-02-16,documentation,0.5,Documentation session
+CAL00213,2024-02-16,deep_work,0.5,Deep Work session
+CAL00214,2024-02-16,deep_work,0.5,Deep Work session
+CAL00215,2024-02-19,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00216,2024-02-19,deep_work,0.5,Deep Work session
+CAL00217,2024-02-19,admin,1.5,Admin session
+CAL00218,2024-02-19,deep_work,0.5,Deep Work session
+CAL00219,2024-02-20,training,1.0,Training session
+CAL00220,2024-02-20,deep_work,0.5,Deep Work session
+CAL00221,2024-02-20,admin,0.5,Admin session
+CAL00222,2024-02-20,admin,1.0,Admin session
+CAL00223,2024-02-20,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00224,2024-02-20,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00225,2024-02-20,admin,1.5,Admin session
+CAL00226,2024-02-20,deep_work,2.0,Deep Work session
+CAL00227,2024-02-21,deep_work,0.5,Deep Work session
+CAL00228,2024-02-21,training,0.5,Training session
+CAL00229,2024-02-21,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00230,2024-02-21,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00231,2024-02-21,admin,1.0,Admin session
+CAL00232,2024-02-21,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00233,2024-02-21,deep_work,1.0,Deep Work session
+CAL00234,2024-02-21,documentation,0.5,Documentation session
+CAL00235,2024-02-22,deep_work,1.5,Deep Work session
+CAL00236,2024-02-22,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00237,2024-02-22,documentation,0.5,Documentation session
+CAL00238,2024-02-22,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00239,2024-02-22,training,1.0,Training session
+CAL00240,2024-02-22,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00241,2024-02-22,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00242,2024-02-22,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00243,2024-02-23,deep_work,2.0,Deep Work session
+CAL00244,2024-02-23,deep_work,1.0,Deep Work session
+CAL00245,2024-02-23,admin,0.5,Admin session
+CAL00246,2024-02-23,deep_work,2.0,Deep Work session
+CAL00247,2024-02-26,deep_work,1.0,Deep Work session
+CAL00248,2024-02-26,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00249,2024-02-26,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00250,2024-02-26,deep_work,0.5,Deep Work session
+CAL00251,2024-02-26,deep_work,1.0,Deep Work session
+CAL00252,2024-02-26,deep_work,1.0,Deep Work session
+CAL00253,2024-02-26,documentation,0.5,Documentation session
+CAL00254,2024-02-27,deep_work,1.5,Deep Work session
+CAL00255,2024-02-27,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00256,2024-02-27,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00257,2024-02-27,training,1.0,Training session
+CAL00258,2024-02-27,admin,1.5,Admin session
+CAL00259,2024-02-27,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00260,2024-02-27,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00261,2024-02-27,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00262,2024-02-28,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00263,2024-02-28,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00264,2024-02-28,admin,1.0,Admin session
+CAL00265,2024-02-28,admin,1.0,Admin session
+CAL00266,2024-02-28,deep_work,2.0,Deep Work session
+CAL00267,2024-02-28,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00268,2024-02-28,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00269,2024-02-28,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00270,2024-02-29,deep_work,1.5,Deep Work session
+CAL00271,2024-02-29,admin,1.0,Admin session
+CAL00272,2024-02-29,documentation,1.0,Documentation session
+CAL00273,2024-02-29,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00274,2024-03-01,deep_work,0.5,Deep Work session
+CAL00275,2024-03-01,documentation,1.0,Documentation session
+CAL00276,2024-03-01,documentation,2.0,Documentation session
+CAL00277,2024-03-01,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00278,2024-03-01,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00279,2024-03-01,documentation,0.5,Documentation session
+CAL00280,2024-03-01,admin,1.0,Admin session
+CAL00281,2024-03-04,deep_work,1.0,Deep Work session
+CAL00282,2024-03-04,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00283,2024-03-04,deep_work,0.5,Deep Work session
+CAL00284,2024-03-04,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00285,2024-03-04,admin,1.0,Admin session
+CAL00286,2024-03-05,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00287,2024-03-05,training,0.5,Training session
+CAL00288,2024-03-05,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00289,2024-03-05,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00290,2024-03-05,deep_work,1.5,Deep Work session
+CAL00291,2024-03-05,admin,1.0,Admin session
+CAL00292,2024-03-05,training,0.5,Training session
+CAL00293,2024-03-05,documentation,1.0,Documentation session
+CAL00294,2024-03-06,training,0.5,Training session
+CAL00295,2024-03-06,admin,0.5,Admin session
+CAL00296,2024-03-06,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00297,2024-03-06,admin,1.0,Admin session
+CAL00298,2024-03-06,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00299,2024-03-06,training,2.0,Training session
+CAL00300,2024-03-06,deep_work,0.5,Deep Work session
+CAL00301,2024-03-06,training,2.0,Training session
+CAL00302,2024-03-07,deep_work,1.0,Deep Work session
+CAL00303,2024-03-07,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00304,2024-03-07,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00305,2024-03-07,deep_work,1.5,Deep Work session
+CAL00306,2024-03-07,admin,1.0,Admin session
+CAL00307,2024-03-07,training,1.0,Training session
+CAL00308,2024-03-07,admin,0.5,Admin session
+CAL00309,2024-03-08,deep_work,0.5,Deep Work session
+CAL00310,2024-03-08,deep_work,1.0,Deep Work session
+CAL00311,2024-03-08,deep_work,1.0,Deep Work session
+CAL00312,2024-03-08,training,1.0,Training session
+CAL00313,2024-03-08,deep_work,0.5,Deep Work session
+CAL00314,2024-03-08,documentation,1.0,Documentation session
+CAL00315,2024-03-08,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00316,2024-03-08,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00317,2024-03-11,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00318,2024-03-11,documentation,0.5,Documentation session
+CAL00319,2024-03-11,deep_work,0.5,Deep Work session
+CAL00320,2024-03-11,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00321,2024-03-11,documentation,1.0,Documentation session
+CAL00322,2024-03-11,deep_work,1.0,Deep Work session
+CAL00323,2024-03-11,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00324,2024-03-12,deep_work,1.0,Deep Work session
+CAL00325,2024-03-12,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00326,2024-03-12,documentation,0.5,Documentation session
+CAL00327,2024-03-12,deep_work,1.5,Deep Work session
+CAL00328,2024-03-12,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00329,2024-03-13,deep_work,0.5,Deep Work session
+CAL00330,2024-03-13,documentation,0.5,Documentation session
+CAL00331,2024-03-13,deep_work,1.0,Deep Work session
+CAL00332,2024-03-13,admin,1.0,Admin session
+CAL00333,2024-03-14,documentation,1.5,Documentation session
+CAL00334,2024-03-14,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00335,2024-03-14,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00336,2024-03-14,documentation,1.0,Documentation session
+CAL00337,2024-03-14,stakeholder_meetings,2.0,Stakeholder Meetings session
+CAL00338,2024-03-15,training,1.5,Training session
+CAL00339,2024-03-15,deep_work,1.0,Deep Work session
+CAL00340,2024-03-15,deep_work,1.5,Deep Work session
+CAL00341,2024-03-15,training,1.0,Training session
+CAL00342,2024-03-15,deep_work,1.0,Deep Work session
+CAL00343,2024-03-15,deep_work,1.0,Deep Work session
+CAL00344,2024-03-15,deep_work,2.0,Deep Work session
+CAL00345,2024-03-18,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00346,2024-03-18,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00347,2024-03-18,documentation,0.5,Documentation session
+CAL00348,2024-03-18,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00349,2024-03-18,deep_work,0.5,Deep Work session
+CAL00350,2024-03-18,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00351,2024-03-18,deep_work,1.0,Deep Work session
+CAL00352,2024-03-19,training,1.5,Training session
+CAL00353,2024-03-19,deep_work,2.0,Deep Work session
+CAL00354,2024-03-19,stakeholder_meetings,1.5,Stakeholder Meetings session
+CAL00355,2024-03-19,training,0.5,Training session
+CAL00356,2024-03-19,admin,0.5,Admin session
+CAL00357,2024-03-20,training,2.0,Training session
+CAL00358,2024-03-20,documentation,0.5,Documentation session
+CAL00359,2024-03-20,deep_work,0.5,Deep Work session
+CAL00360,2024-03-20,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00361,2024-03-20,admin,1.0,Admin session
+CAL00362,2024-03-20,deep_work,1.0,Deep Work session
+CAL00363,2024-03-20,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00364,2024-03-20,deep_work,0.5,Deep Work session
+CAL00365,2024-03-21,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00366,2024-03-21,admin,1.0,Admin session
+CAL00367,2024-03-21,deep_work,0.5,Deep Work session
+CAL00368,2024-03-21,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00369,2024-03-21,documentation,1.0,Documentation session
+CAL00370,2024-03-21,training,1.0,Training session
+CAL00371,2024-03-22,deep_work,1.0,Deep Work session
+CAL00372,2024-03-22,admin,1.5,Admin session
+CAL00373,2024-03-22,training,2.0,Training session
+CAL00374,2024-03-22,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00375,2024-03-25,documentation,1.0,Documentation session
+CAL00376,2024-03-25,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00377,2024-03-25,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00378,2024-03-25,training,1.0,Training session
+CAL00379,2024-03-25,documentation,1.5,Documentation session
+CAL00380,2024-03-26,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00381,2024-03-26,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00382,2024-03-26,documentation,1.0,Documentation session
+CAL00383,2024-03-26,training,1.0,Training session
+CAL00384,2024-03-26,deep_work,0.5,Deep Work session
+CAL00385,2024-03-26,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00386,2024-03-26,deep_work,1.0,Deep Work session
+CAL00387,2024-03-27,deep_work,1.0,Deep Work session
+CAL00388,2024-03-27,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00389,2024-03-27,admin,1.5,Admin session
+CAL00390,2024-03-27,documentation,1.5,Documentation session
+CAL00391,2024-03-27,stakeholder_meetings,1.0,Stakeholder Meetings session
+CAL00392,2024-03-27,deep_work,2.0,Deep Work session
+CAL00393,2024-03-27,documentation,0.5,Documentation session
+CAL00394,2024-03-28,deep_work,1.0,Deep Work session
+CAL00395,2024-03-28,documentation,1.5,Documentation session
+CAL00396,2024-03-28,admin,1.5,Admin session
+CAL00397,2024-03-28,deep_work,1.5,Deep Work session
+CAL00398,2024-03-28,deep_work,0.5,Deep Work session
+CAL00399,2024-03-28,deep_work,0.5,Deep Work session
+CAL00400,2024-03-28,stakeholder_meetings,0.5,Stakeholder Meetings session
+CAL00401,2024-03-29,deep_work,2.0,Deep Work session
+CAL00402,2024-03-29,documentation,1.0,Documentation session
+CAL00403,2024-03-29,deep_work,0.5,Deep Work session
+CAL00404,2024-03-29,stakeholder_meetings,1.0,Stakeholder Meetings session
