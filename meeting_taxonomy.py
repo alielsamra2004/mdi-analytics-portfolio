@@ -81,7 +81,7 @@ for autotext in autotexts:
     autotext.set_fontsize(12)
     autotext.set_weight('bold')
 
-ax.set_title('Time Allocation by Activity Category\n(3-Month Internship Period)', 
+ax.set_title('Time Allocation by Activity Category\n(Midpoint: 1.5-Month Period)', 
              fontsize=14, weight='bold', pad=20)
 
 plt.tight_layout()
