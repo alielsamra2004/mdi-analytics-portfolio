@@ -12,6 +12,8 @@ This template helps interns document achievements, track deliverables, and refle
 **Manager:** [Manager Name]  
 **Internship Period:** [Start Date] to [End Date]  
 **Review Period:** [Month Year]
+**Internship Total Duration:** 3 months  
+**Current Checkpoint:** Midpoint (~1.5 months elapsed)
 
 ---
 
