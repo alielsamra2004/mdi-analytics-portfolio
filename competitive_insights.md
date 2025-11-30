@@ -269,18 +269,4 @@ Product teams at leading fintechs (Square, PayPal, Stripe) maintain competitive 
 - **Post-experiment:** Full analysis with confidence intervals, segment breakdowns
 - **Quarterly:** Meta-analysis of all experiments to extract patterns
 
----
 
-## Related Documentation
-- Experiment Framework (internal wiki)
-- KPI Dictionary (kpi_dictionary.md)
-- Product Roadmap (internal tool)
-- Regulatory Compliance Checklist (legal team)
-
----
-
-## Contact
-**Competitive Intelligence Owner:** Product Strategy Team  
-**Email:** product-strategy@mdi.example.com  
-**Slack Channel:** #competitive-intel  
-**Review Cadence:** Monthly (first Tuesday)
