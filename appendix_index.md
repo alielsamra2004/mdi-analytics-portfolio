@@ -218,14 +218,3 @@ Alternatively, use Streamlit's built-in screenshot functionality or browser deve
 | 4.5 Data Quality | Appendix E | `data_quality.py`, `outputs/data_quality_*` |
 | 4.6 Competitive Intel | Appendix F | `competitive_insights.md` |
 | 4.7 Professional Dev | Appendix G | `meeting_taxonomy.py`, `intern_performance_template.md` |
-
----
-
-## Reproducibility
-
-All outputs are deterministic and reproducible by running:
-```bash
-python generate_data.py && python load_to_sqlite.py && python analysis.py && python data_quality.py && python meeting_taxonomy.py
-```
-
-Random seeds are set in all scripts to ensure consistent results across runs.
