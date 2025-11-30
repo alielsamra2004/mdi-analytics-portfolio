@@ -138,13 +138,3 @@ DQS = (Total Records - Affected Records) / Total Records * 100
 **Target DQS:** 99.5% for production tables
 
 ---
-
-## Contact & Support
-
-**Data Quality Owner:** Data Engineering Team  
-**Email:** data-quality@mdi.example.com  
-**Slack Channel:** #data-quality  
-**Review Cadence:** Weekly (Mondays 10 AM)
-
-**Documentation:** [Data Quality Playbook](internal-wiki)  
-**Runbook:** [DQ Issue Triage Guide](internal-wiki)
