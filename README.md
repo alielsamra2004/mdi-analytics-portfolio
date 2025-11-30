@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project contains portfolio-grade analytics deliverables for Misr Digital Innovation (MDI), a fintech innovation subsidiary building Egypt's first fully digital bank. All artifacts use synthetic data and are designed to be attached as appendices to a university internship report.
+This project contains portfolio-grade analytics deliverables for Misr Digital Innovation (MDI), a fintech innovation subsidiary building Egypt's first fully digital bank. Data used here is different than real data provided and is using synthetic data to follow companies NDA rules and represent a fraction of the data given to me during the internship.
+
+### Branding Note
+This project was initiated prior to the organization-wide transition from MDI to One Bank (effective August). Until all internal changes are fully reflected across systems and documentation, the codebase and artifacts here retain the MDI brand for consistency. Functional behavior and analytics are unaffected by branding and can be updated to One Bank naming when the migration is complete.
 
 ## Project Structure
 
@@ -111,7 +114,6 @@ This opens an interactive dashboard in your browser with:
 - Channel and region filters
 - Operational health metrics
 
-To generate a static dashboard screenshot, follow the instructions in the Streamlit app.
 
 ## Quick Start (All-in-One)
 
@@ -174,10 +176,6 @@ streamlit run app.py
 - Time allocation analysis
 - Meeting taxonomy methodology
 
-## Appendix Mapping
-
-See `appendix_index.md` for the complete mapping of deliverables to university report appendices.
-
 ## Technical Notes
 
 ### Data Characteristics
@@ -188,9 +186,9 @@ See `appendix_index.md` for the complete mapping of deliverables to university r
 
 ### Design Decisions
 - SQLite chosen for portability and ease of setup
-- Pandas used for data manipulation (universally understood)
-- Matplotlib for charts (Word-friendly PNG exports)
-- Streamlit for dashboard (minimal frontend code required)
+- Pandas used for data manipulation
+- Matplotlib for charts 
+- Streamlit for dashboard 
 
 ### Extending the Project
 - Replace synthetic data with real data sources (with proper anonymization)
@@ -199,10 +197,4 @@ See `appendix_index.md` for the complete mapping of deliverables to university r
 - Implement automated alerting for KPI thresholds
 - Expand KPI dictionary with customer lifetime value metrics
 
-## Support and Questions
 
-This project is designed to be self-contained and fully reproducible. All data is synthetic and safe to share. For questions about specific metrics or methodology, refer to the inline comments in each script.
-
-## License
-
-This project is for educational and portfolio purposes only.
