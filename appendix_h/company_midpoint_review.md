@@ -1,7 +1,5 @@
 # Appendix H: Manager Feedback and Midpoint Self-Review (Internal)
 
-> Internal only, not included in the public report.
-
 ## Individual Achievements and Areas for Opportunity (Midpoint Feedback)
 
 ### Achievements (related to axes of performance)

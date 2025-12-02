@@ -167,7 +167,7 @@ Each insight includes:
 ## Appendix H: Manager Feedback and Midpoint Self-Review
 
 **Files:**
-- `appendix_h/README.md` - Internal-only midpoint feedback and self-review
+- `appendix_h/company_midpoint_review.md` - Internal-only midpoint feedback and self-review
 
 **Contents:**
 - Individual achievements across axes (productivity, quality, collaboration, initiative, learning)

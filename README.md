@@ -196,7 +196,7 @@ Refer to `appendix_index.md` for full file-level detail and cross-references.
 - Self-assessment against goals
 - Manager feedback alignment
 
-**Where to find:** Full internal-only content is in `appendix_h/README.md`. This appendix is excluded from the public report but maintained in the repository for completeness.
+**Where to find:** Full internal-only content is in `appendix_h/company_midpoint_review.md`. This appendix is excluded from the public report but maintained in the repository for completeness.
 
 ## Technical Notes
 
