@@ -148,7 +148,7 @@ The project deliverables map to report appendices as follows:
 
 Refer to `appendix_index.md` for full file-level detail and cross-references.
 
-### A. Data Generation (`generate_data.py`)
+### Supporting Artifact: Data Generation (`generate_data.py`)
 - 10,000+ users with realistic drop-off patterns
 - Multi-stage onboarding events with timing delays
 - Transaction records with success/failure outcomes
@@ -156,40 +156,45 @@ Refer to `appendix_index.md` for full file-level detail and cross-references.
 - KYC cases with approval/rejection decisions
 - Intentional data quality issues for validation testing
 
-### B. SQL Analytics (`schema.sql`, `queries.sql`, `load_to_sqlite.py`)
-- Normalized schema for digital banking analytics
-- Core queries covering funnel analysis, retention, KYC performance
-- SQLite database ready for BI tool connection
-
-### C. KPI Dictionary (`kpi_dictionary.csv`, `kpi_dictionary.md`)
+### Appendix A: KPI Dictionary (`kpi_dictionary.csv`, `kpi_dictionary.md`)
 - 12+ production-grade KPI definitions
 - Business context, SQL definitions, and edge cases
 - Segmentation dimensions and ownership
 
-### D. Python Analytics (`analysis.py`)
+### Appendix B: SQL Schema and Core Queries (`schema.sql`, `queries.sql`, `load_to_sqlite.py`)
+- Normalized schema for digital banking analytics
+- Core queries covering funnel analysis, retention, KYC performance
+- SQLite database ready for BI tool connection
+
+### Appendix C: Python Analysis Evidence (`analysis.py`, `outputs/`)
 - Automated KPI calculation
 - 5+ publication-ready charts
 - Interpretation guidance for each metric
 
-### E. Dashboard Mock (`app.py`)
+### Appendix D: Dashboard Mock (`app.py`)
 - Interactive Streamlit dashboard
 - Real-time filtering by channel, region, device
 - Executive summary and operational drill-downs
 
-### F. Data Quality Framework (`data_quality.py`)
+### Appendix E: Data Quality (`data_quality.py`, `outputs/data_quality_*`)
 - Automated validation checks
 - Triage scoring system
 - Actionable remediation recommendations
 
-### G. Competitive Intelligence (`competitive_insights.md`)
+### Appendix F: Competitive Intelligence Insights Pack (`competitive_insights.md`)
 - 6 structured insights with measurement plans
 - Hypothesis-driven approach
 - Risk and constraint analysis
 
-### H. Internal Enablement (`intern_performance_template.md`, `meeting_taxonomy.py`)
+### Appendix G: Internal Enablement Tools (`intern_performance_template.md`, `meeting_taxonomy.py`, `meeting_taxonomy_summary.md`)
 - Performance tracking template
 - Time allocation analysis
 - Meeting taxonomy methodology
+
+### Appendix H: Manager Feedback and Midpoint Self-Review (`intern_performance_template.md` midpoint section)
+- Midpoint performance reflection
+- Self-assessment against goals
+- Manager feedback alignment
 
 ## Technical Notes
 
