@@ -133,6 +133,21 @@ streamlit run app.py
 
 ## What Each Deliverable Produces
 
+## Appendices Overview
+
+The project deliverables map to report appendices as follows:
+
+- Appendix A: KPI Dictionary
+- Appendix B: SQL Schema and Core Queries
+- Appendix C: Python Analysis Evidence
+- Appendix D: Dashboard Mock
+- Appendix E: Data Quality
+- Appendix F: Competitive Intelligence Insights Pack
+- Appendix G: Internal Enablement Tools
+- Appendix H: Manager Feedback and Midpoint Self-Review
+
+Refer to `appendix_index.md` for full file-level detail and cross-references.
+
 ### A. Data Generation (`generate_data.py`)
 - 10,000+ users with realistic drop-off patterns
 - Multi-stage onboarding events with timing delays
