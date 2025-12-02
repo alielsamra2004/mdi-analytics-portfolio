@@ -164,6 +164,23 @@ Each insight includes:
 
 ---
 
+## Appendix H: Manager Feedback and Midpoint Self-Review
+
+**Files:**
+- `appendix_h/README.md` - Internal-only midpoint feedback and self-review
+
+**Contents:**
+- Individual achievements across axes (productivity, quality, collaboration, initiative, learning)
+- Challenges and support needs
+- Program reflections and manager feedback summary
+- Next-half success plan and visibility goals
+
+**Access:** Internal only; included in the repo for completeness but excluded from the public report.
+
+**Report Section Reference:** Section 4.8 (Manager Feedback and Midpoint Self-Review)
+
+---
+
 ## Supporting Files
 
 **Configuration and Setup:**
