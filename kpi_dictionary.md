@@ -369,11 +369,4 @@ SUM(amount WHERE status = 'success') / COUNT(*) WHERE status = 'success')
 - Add product feature adoption metrics
 - Expand segmentation dimensions to include user_segment
 
----
 
-## Contact
-
-For questions or suggested updates:
-- Product Analytics Team: analytics@mdi.com
-- Data Engineering: data-eng@mdi.com
-- KPI Dictionary Owner: product-analytics-lead@mdi.com

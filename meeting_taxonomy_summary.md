@@ -324,11 +324,4 @@ A: No. Some meeting time is valuable (learning from others, feedback, alignment)
 - Include energy level tracking (high-energy vs low-energy tasks)
 - Expand benchmarks for different internship stages
 
----
 
-## Contact
-
-**Owner:** People Operations Team  
-**Contributors:** Data Analytics Team, Product Team  
-**Questions:** hr-interns@mdi.com  
-**Feedback:** Submit to internal wiki discussion page
