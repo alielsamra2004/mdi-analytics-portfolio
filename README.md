@@ -88,7 +88,7 @@ This project was initiated prior to the organization-wide transition from MDI to
 pip install -r requirements.txt
 ```
 
-> **Note:** `requirements.txt` includes all dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `streamlit`, `plotly`, `scikit-learn`, `scipy`, `lifelines`, and `shap`. The `lifelines` package will also install `autograd` and `formulaic` as sub-dependencies — this is expected.
+> **Note:** `requirements.txt` includes all dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `streamlit`, `plotly`, `scikit-learn`, `scipy`, `lifelines`, and `shap`. The `lifelines` package will also install `autograd` and `formulaic` as sub-dependencies — this is expected. NumPy is pinned to `<2.0` for compatibility with `pyarrow` and `numexpr`; if you see an `_ARRAY_API not found` error, run `pip install "numpy<2"` to resolve it.
 
 ### Running the Project
 
