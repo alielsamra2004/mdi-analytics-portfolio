@@ -86,8 +86,9 @@ This project was initiated prior to the organization-wide transition from MDI to
 1. Install required packages:
 ```bash
 pip install -r requirements.txt
-pip install scikit-learn scipy lifelines shap
 ```
+
+> **Note:** `requirements.txt` includes all dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `streamlit`, `plotly`, `scikit-learn`, `scipy`, `lifelines`, and `shap`. The `lifelines` package will also install `autograd` and `formulaic` as sub-dependencies — this is expected.
 
 ### Running the Project
 
