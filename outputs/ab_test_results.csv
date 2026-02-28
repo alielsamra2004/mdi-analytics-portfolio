@@ -1,0 +1,11 @@
+Channel A,Channel B,n_A,n_B,rate_A,rate_B,diff,z_stat,p_value,cohen_h,sig_raw,sig_bonferroni
+referral,paid_social,3053,2402,0.3672,0.117,0.2502,20.9924,0.0,0.6038,True,True
+referral,organic,3053,2080,0.3672,0.2139,0.1532,11.7057,0.0,0.3402,True,True
+referral,paid_search,3053,1484,0.3672,0.186,0.1812,12.4037,0.0,0.4102,True,True
+referral,partnership,3053,981,0.3672,0.2681,0.0991,5.6871,0.0,0.2134,True,True
+paid_social,organic,2402,2080,0.117,0.2139,-0.097,-8.7862,0.0,0.2636,True,True
+paid_social,paid_search,2402,1484,0.117,0.186,-0.069,-5.9636,0.0,0.1936,True,True
+paid_social,partnership,2402,981,0.117,0.2681,-0.1511,-10.8562,0.0,0.3903,True,True
+organic,paid_search,2080,1484,0.2139,0.186,0.028,2.0482,0.040539,0.0699,True,False
+organic,partnership,2080,981,0.2139,0.2681,-0.0542,-3.3157,0.000914,0.1268,True,True
+paid_search,partnership,1484,981,0.186,0.2681,-0.0821,-4.8276,1e-06,0.1967,True,True
