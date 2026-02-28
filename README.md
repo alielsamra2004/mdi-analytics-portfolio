@@ -232,6 +232,7 @@ The project deliverables map to report appendices as follows:
 - Appendix F: Competitive Intelligence Insights Pack
 - Appendix G: Internal Enablement Tools
 - Appendix H: Manager Feedback and Midpoint Self-Review
+- Appendix I: Final Manager Review
 
 Refer to `appendix_index.md` for full file-level detail and cross-references.
 
@@ -285,6 +286,11 @@ Refer to `appendix_index.md` for full file-level detail and cross-references.
 - Manager feedback alignment
 
 **Where to find:** Full internal-only content is in `appendix_h/company_midpoint_review.md`. This appendix is excluded from the public report but maintained in the repository for completeness.
+
+### Appendix I: Final Manager Review (`final_internship_report.md` — Appendix I section)
+- End-of-internship performance self-assessment across all axes: Productivity, Quality, Communication, Initiative, Learning Speed
+- Quantified outcomes tied to portfolio deliverables (cohort trend, churn leakage fix, A/B test rigour, survival analysis, segmentation)
+- Challenges, support needs, and overall programme reflections
 
 ## Technical Notes
 
