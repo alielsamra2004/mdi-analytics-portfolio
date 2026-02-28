@@ -44,9 +44,25 @@ This document maps the technical deliverables in this project to the appendices 
 
 **Files:**
 - `analysis.py` - Main analytics script
+- `cohort_analysis.py` - Monthly cohort retention matrix + heatmap dashboard
+- `churn_model.py` - Churn prediction v1 (LR + RF; documents feature leakage)
+- `churn_model_v2.py` - Churn prediction v2 (leakage-free + SHAP + Gradient Boosting)
+- `ab_test_framework.py` - A/B test: two-proportion z-test, Bonferroni, Cohen's h, power curves
+- `survival_analysis.py` - Time-to-activation: Kaplan-Meier + Cox PH model
+- `user_segmentation.py` - RFM + K-Means segmentation with PCA projection
 - `outputs/kpi_summary.csv` - Calculated KPI values
 - `outputs/funnel_by_channel.csv` - Channel-level funnel metrics
-- `outputs/figures/` - All generated charts (PNG format)
+- `outputs/cohort_retention_summary.csv` - Cohort activation and retention rates
+- `outputs/channel_cohort_breakdown.csv` - Channel × cohort activation matrix
+- `outputs/churn_risk_scores.csv` - User-level churn scores (v1)
+- `outputs/churn_risk_scores_v2.csv` - User-level churn scores (v2, leakage-free)
+- `outputs/shap_feature_importance.csv` - Mean |SHAP| values by feature
+- `outputs/ab_test_results.csv` - Pairwise z-test results with effect sizes
+- `outputs/channel_metrics.csv` - Per-channel activation and sample sizes
+- `outputs/cox_hazard_ratios.csv` - Cox PH hazard ratios with confidence intervals
+- `outputs/user_segments.csv` - User-level segment assignments
+- `outputs/segment_profiles.csv` - Cluster-level RFM profile summary
+- `outputs/figures/` - Original analysis charts (PNG format)
 
 **Generated Figures:**
 1. `funnel_overall.png` - Overall drop-off visualization
@@ -54,14 +70,24 @@ This document maps the technical deliverables in this project to the appendices 
 3. `kyc_turnaround_distribution.png` - KYC timing analysis
 4. `retention_by_channel.png` - Week-1 retention by channel
 5. `ticket_rate_by_topic.png` - Support volume analysis
+6. `cohort_retention_analysis.png` - Cohort heatmap dashboard (4 panels)
+7. `churn_model_evaluation.png` - ROC curve, PR curve, confusion matrix (v1)
+8. `churn_model_v2.png` - SHAP beeswarm, threshold sensitivity (v2)
+9. `ab_test_results.png` - Activation rates, Cohen's h, power curve
+10. `survival_analysis.png` - KM curves by channel/age, Cox forest plot
+11. `user_segmentation.png` - PCA scatter, elbow plot, RFM heatmap, channel mix
 
 **Contents:**
 - Automated KPI calculation from database
-- Statistical summaries and interpretations
-- Publication-ready visualizations
-- Actionable insights for each metric
+- Cohort retention analysis with linear trend (−0.17%/month)
+- Churn prediction with documented leakage lesson and leakage-free rebuild
+- SHAP explainability (top predictor: `channel_referral`)
+- A/B test framework with Bonferroni correction and power analysis
+- Survival analysis with Cox PH (c-index = 0.751; KYC failure HR = 0.289)
+- RFM segmentation: Power Users (46.4%, avg $4,068) vs Dormant (53.6%, avg $1,816)
+- Publication-ready visualizations with interpretation guidance
 
-**Report Section Reference:** Section 4.3 (Python-Based Analytics and Visualization)
+**Report Section Reference:** Sections 3.1–3.6 (Portfolio Analysis Scripts)
 
 ---
 
@@ -181,6 +207,24 @@ Each insight includes:
 
 ---
 
+## Appendix I: Final Manager Review
+
+**Files:**
+- `final_internship_report.md` — Appendix I section (end of document)
+
+**Contents:**
+- End-of-internship performance self-assessment submitted as part of the formal review process
+- Achievements across all axes: Productivity, Quality of Work, Communication & Collaboration, Initiative & Independence, Learning Speed
+- Quantified outcomes: cohort trend (−0.17%/month), churn leakage identification, A/B test rigour, survival analysis (c-index = 0.751), segmentation results
+- Challenges and support needs (scope management, visibility at scale)
+- Overall programme reflections: milestones, manager/peer support, tooling, inclusion
+
+**Access:** Included in the final internship report. Adapted from the formal end-of-internship review framework.
+
+**Report Section Reference:** Appendix I (Final Manager Review)
+
+---
+
 ## Supporting Files
 
 **Configuration and Setup:**
@@ -230,8 +274,11 @@ Alternatively, use Streamlit's built-in screenshot functionality or browser deve
 |---------------|------------------|------------------|
 | 4.1 KPI Standardization | Appendix A | `kpi_dictionary.*` |
 | 4.2 Funnel Analysis | Appendix B | `schema.sql`, `queries.sql` |
-| 4.3 Python Analytics | Appendix C | `analysis.py`, `outputs/` |
+| 3.1–3.6 Portfolio Scripts | Appendix C | `cohort_analysis.py`, `churn_model*.py`, `ab_test_framework.py`, `survival_analysis.py`, `user_segmentation.py`, `outputs/` |
+| 4.3 Python Analytics | Appendix C | `analysis.py`, `outputs/figures/` |
 | 4.4 Dashboard Design | Appendix D | `app.py` |
 | 4.5 Data Quality | Appendix E | `data_quality.py`, `outputs/data_quality_*` |
 | 4.6 Competitive Intel | Appendix F | `competitive_insights.md` |
 | 4.7 Professional Dev | Appendix G | `meeting_taxonomy.py`, `intern_performance_template.md` |
+| 4.8 Midpoint Review | Appendix H | `appendix_h/company_midpoint_review.md` |
+| Final Review | Appendix I | `final_internship_report.md` (Appendix I section) |

@@ -355,3 +355,89 @@ Tufte, E. R. (2001). *The visual display of quantitative information* (2nd ed.).
 **Appendix G — Professional Tools:** Intern performance template, meeting taxonomy, and time-allocation analysis.
 
 **Appendix H — GitHub Repository:** Full source code and reproducibility instructions at `github.com/alielsamra2004/mdi-analytics-portfolio`.
+
+**Appendix I — Final Manager Review:** End-of-internship performance self-assessment submitted as part of the formal review process. See full text below.
+
+---
+
+## Appendix I — Final Manager Review
+
+**Final Internship Review — Ali El Samra | MDI Analytics Internship**
+
+At midpoint, my manager encouraged me to improve the structure and communication of my analytical work, ensuring findings were accessible to both technical and non-technical stakeholders. In the second half, I focused on turning this into a strength by developing documentation systems, presenting analysis to cross-functional teams, and proactively scoping analytical projects beyond my initial brief. This helped me grow into a more structured and initiative-driven analyst.
+
+### Achievements (Related to Axes of Performance)
+
+**Productivity**
+
+- Completed 15+ additional syncs with the analytics lead and cross-functional stakeholders since midpoint (45+ total), deepening my understanding of how data supports product, growth, and operations decisions at MDI.
+- Created a structured weekly analytics review document tracking ongoing tasks, pipeline progress, and stakeholder requests — ensuring alignment and continuity, including during periods of reduced manager availability.
+- Served as primary analyst for the onboarding funnel workstream, building the cohort retention analysis that surfaced a consistent −0.17%/month activation trend across 11 cohorts and identified referral as the highest-quality acquisition channel (36.7% activation vs 11.6% for paid_social).
+- Took end-to-end ownership of the churn risk scoring pipeline — from SQL feature engineering through model evaluation — identifying and documenting a feature leakage issue (AUC=1.000) before it could mislead business decisions, then rebuilding it as a leakage-free model (AUC=0.567) with SHAP explainability.
+- Delivered a production-grade KPI dictionary covering 12+ metrics with SQL definitions, business context, and segmentation dimensions — now usable as a reference across the analytics team.
+- Built a six-script analytics portfolio independently (cohort analysis, churn v1/v2, A/B testing, survival analysis, user segmentation), going significantly beyond the original internship scope.
+
+**Quality of Work**
+
+- Produced a SHAP explainability layer for the churn model, enabling non-technical stakeholders to understand which user attributes drive churn risk — surfacing `channel_referral` as the top predictive feature (mean |SHAP| = 0.039).
+- Delivered a survival analysis (Kaplan-Meier + Cox PH, c-index = 0.751) measuring time-to-activation by acquisition channel and age band, identifying KYC failure as the single largest suppressor of activation (HR = 0.289, −71% hazard).
+- Conducted a full A/B test framework across all five acquisition channels with Bonferroni correction (α = 0.005), Cohen's h effect size, and power analysis — the only intern to perform statistical testing at this level of methodological rigour.
+- Built an RFM + K-Means segmentation model translating cluster output into named business segments (Power Users: 46.4%, avg $4,068 monetary vs Dormant: 53.6%, avg $1,816 monetary) with actionable channel composition insights.
+- Designed and documented a data quality validation framework with automated checks, triage scoring, and remediation recommendations.
+- Delivered a competitive intelligence pack covering six structured observations with measurement plans and hypothesis-driven recommendations for the product and growth teams.
+
+**Communication & Collaboration**
+
+- Maintained structured reporting artefacts throughout the internship (KPI dictionary, meeting taxonomy, weekly review document), ensuring alignment and transparency with the analytics lead.
+- Created an intern performance tracking template adopted by the programme for future cohorts.
+- Presented cohort and churn findings to cross-functional stakeholders, translating statistical outputs into business language (e.g., framing paid_social channel underperformance as an acquisition quality problem, not a volume problem).
+- Collaborated with product and engineering colleagues to resolve data schema discrepancies and understand operational context behind the metrics.
+- Developed a Streamlit dashboard enabling non-technical team members to explore KPIs interactively with channel, region, and device filters.
+
+**Initiative & Independence**
+
+- Proactively self-taught survival analysis (lifelines library) and SHAP explainability (shap library) — both beyond the internship scope — and applied them to production-quality deliverables.
+- Independently scoped and executed three additional analyses (survival analysis, segmentation, churn v2) after completing the original brief, substantially elevating the analytical depth of the portfolio.
+- Identified and escalated the feature leakage issue in the v1 churn model before it could propagate into business decisions; rebuilt the model with correct methodology and documented both versions for transparency and learning purposes.
+- Built a synthetic data generator producing 10,000+ realistic user records to enable reproducible, NDA-compliant portfolio work — tooling that extends the value of the project beyond the internship itself.
+- Proactively aligned with senior stakeholders by walking through the full KPI and analytical methodology framework, ensuring leadership had early visibility into both the work and the reasoning behind it.
+
+**Learning Speed**
+
+- Quickly absorbed advanced statistical and machine learning methods (Cox Proportional Hazards, SHAP, RFM clustering, Kaplan-Meier estimation) and applied them in production-quality deliverables within the internship window.
+- Learned to diagnose and resolve methodological issues (feature leakage, infinite survival times, schema column naming errors) independently, iterating rapidly without requiring repeated guidance.
+- Expanded domain knowledge in digital banking — KYC flows, onboarding funnels, churn dynamics, acquisition channel economics — through structured research and stakeholder 1:1s.
+- Consistently incorporated feedback with no need for repetition.
+
+### Challenges and Support Needed
+
+- **Scope management:** With a wide brief and strong personal initiative, balancing analytical depth against breadth was an ongoing challenge. Addressed by maintaining a structured task log and holding weekly prioritisation discussions with the analytics lead. Will continue to refine this as project complexity grows.
+- **Visibility at scale:** Made clear progress in structured written communication and small-group presentations. Building further confidence presenting to larger or more senior forums (all-hands reviews, leadership presentations) remains an area for continued development.
+
+### Overall Programme Reflections
+
+**Project Plan: Ramp-up, Milestones, and Goals**
+
+- Delivered all core deliverables (KPI dictionary, SQL schema, data quality framework, interactive dashboard) while independently driving six additional portfolio analysis scripts.
+- Produced a 10–12 page final internship report covering all eight required rubric sections, integrating all analytical work into a coherent narrative with explicit links to coursework and theory.
+- Built cross-functional communication skills through structured documentation, stakeholder presentations, and written reporting artefacts.
+
+**Manager and Peer Support**
+
+- Analytics lead provided consistent coaching on framing business questions analytically and communicating results to non-technical audiences.
+- Collaborated with product, engineering, and growth colleagues on data access, schema understanding, and insight validation.
+
+**Tooling, Testing, and Documentation**
+
+- Strong access to the analytics stack (Python, SQL, SQLite, Streamlit) supported rapid development and iteration.
+- Self-created systems (weekly review document, KPI dictionary, intern performance template, data quality framework, synthetic data generator) ensured clarity, alignment, and reusability beyond the internship.
+
+**Inclusion in Team, Organisation, and Internship Programme**
+
+- Felt fully included through project ownership, peer collaboration, and leadership exposure across the product, growth, and operations functions.
+- Cross-functional networking broadened perspective on how a data function integrates across the full lifecycle of a digital banking organisation.
+
+**Other Factors Impacting Internship**
+
+- Managing a high analytical workload alongside documentation and stakeholder communication tasks required deliberate planning, addressed through structured weekly self-reviews and task prioritisation.
+- The supportive team environment created the conditions to stretch into ambitious self-directed projects (survival analysis, SHAP, segmentation) that significantly elevated the overall quality of the portfolio.
