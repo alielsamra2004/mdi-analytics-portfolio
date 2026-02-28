@@ -10,7 +10,9 @@
 
 ## Executive Summary
 
-This report documents the full arc of my internship at MDI, a fintech company building digital banking infrastructure for underbanked markets. Over the internship I progressed from constructing a foundational analytics pipeline — SQL schema, KPI extraction, and a Streamlit dashboard — to designing and implementing a suite of advanced analytical methods: cohort retention analysis, a machine learning churn prediction model, and a rigorous A/B testing framework. Each project phase introduced qualitatively new challenges that required me to apply, reframe, and sometimes discard what I had learned in the classroom.
+This report documents the full arc of my internship at MDI, a fintech company building digital banking infrastructure for underbanked markets. Over the internship I progressed from constructing a foundational analytics pipeline — SQL schema, KPI extraction, and a Streamlit dashboard — to designing and implementing a suite of advanced analytical methods: cohort retention analysis, a machine learning churn prediction model, a rigorous A/B testing framework, survival analysis, and user segmentation. Each project phase introduced qualitatively new challenges that required me to apply, reframe, and sometimes discard what I had learned in the classroom.
+
+The original Streamlit dashboard was also expanded to integrate all six analyses as interactive tabs, making the full portfolio — cohort trends, churn risk scores, A/B test results, Cox hazard ratios, and user segments — accessible to non-technical stakeholders in a single interface.
 
 The report is structured around evidence. Figures, model outputs, and statistical results are embedded in the discussion and interpreted in context. Where the evidence is surprising or contradicts my expectations, I say so and explain what the contradiction taught me.
 
@@ -96,12 +98,22 @@ The power curve panel (Panel D in `ab_test_results.png`) is an example of what t
 ```
 generate_data.py        → Synthetic CSVs (users, events, KYC, txns, tickets)
 load_to_sqlite.py       → mdi_analytics.db (star-schema SQLite)
-                           │
-           ┌───────────────┼──────────────────┐
-    cohort_analysis.py  churn_model.py  ab_test_framework.py
-           │                │                  │
-    outputs/cohort_*.png  churn_*.png       ab_test_*.png
-    cohort_*.csv          churn_*.csv       ab_test_*.csv
+                                    │
+        ┌───────────┬───────────────┼───────────────┬──────────────┐
+cohort_analysis  churn_model_v2  ab_test_framework  survival_analysis  user_segmentation
+        │               │               │                 │                  │
+  cohort_*.png    churn_v2_*.png   ab_test_*.png   survival_*.png    segmentation_*.png
+  cohort_*.csv    shap_*.csv       ab_test_*.csv   cox_hazard_*.csv  segment_*.csv
+                                    │
+                              app.py (Streamlit)
+                       ┌──────────────────────────┐
+                       │  Tab 1: Overview          │
+                       │  Tab 2: Cohort Analysis   │
+                       │  Tab 3: Churn Risk        │
+                       │  Tab 4: A/B Testing       │
+                       │  Tab 5: Survival Analysis │
+                       │  Tab 6: User Segmentation │
+                       └──────────────────────────┘
 ```
 
 Every script is self-contained and reads directly from the SQLite database. This design was a deliberate choice: it makes each analysis reproducible independently, which matters when a stakeholder asks to re-run the churn model with different hyperparameters without affecting the cohort analysis.
@@ -249,7 +261,7 @@ At the midterm, my technical contributions were:
 - A 7-table SQLite schema with foreign key constraints
 - Funnel extraction queries (overall and by channel)
 - KPI summary tables and time-to-stage medians
-- A Streamlit dashboard with filter widgets
+- A Streamlit dashboard with filter widgets (Overview tab: KPIs, funnel, channel, operational health, transactions)
 
 By the end of the internship, the technical portfolio had grown to include:
 - Monthly cohort retention matrices with funnel heatmaps and trend detection
@@ -259,6 +271,7 @@ By the end of the internship, the technical portfolio had grown to include:
 - K-Means behavioural segmentation with parallel elbow/silhouette optimisation, PCA projection, and business-segment translation
 - A rigorous statistical testing framework: 10 pairwise z-tests, Bonferroni correction, Cohen's h, chi-square, and power analysis
 - Six four-panel analytical dashboards (42 individual visualisation panels total) covering every major result
+- An expanded Streamlit dashboard (`app.py`) with six tabs integrating all portfolio outputs as interactive Plotly visualisations, making cohort trends, churn risk tiers, A/B significance tables, Cox forest plots, and RFM segment profiles accessible to non-technical stakeholders without running any Python
 
 The growth is not simply additive — it reflects a change in *analytical register*. The midterm work answered "what is happening?" (descriptive). The final work spans "what is likely to happen?" (predictive), "can we distinguish signal from noise?" (inferential), and "how long until it happens, and for whom?" (survival). The explicit v1 → v2 churn model iteration demonstrates a fourth register: *analytical self-correction*.
 
@@ -346,7 +359,7 @@ Tufte, E. R. (2001). *The visual display of quantitative information* (2nd ed.).
 
 **Appendix C — Python Analysis Evidence:** Script summaries, pseudocode for key algorithms, and annotated output excerpts for all six analysis scripts: cohort_analysis.py, churn_model.py, churn_model_v2.py, ab_test_framework.py, survival_analysis.py, and user_segmentation.py.
 
-**Appendix D — Streamlit Dashboard:** Screenshot and functional description of the interactive dashboard (app.py), including executive KPI panel, funnel drill-down, and channel segmentation filters.
+**Appendix D — Streamlit Dashboard:** Interactive dashboard (`app.py`) expanded to six tabs. Tab 1 (Overview) covers executive KPIs, onboarding funnel, channel performance, operational health, and transaction analysis — all filterable by channel, region, and device. Tabs 2–6 surface the full portfolio as interactive Plotly charts: cohort activation trends and funnel heatmap (Tab 2), SHAP feature importance and churn risk tier breakdown (Tab 3), channel A/B test significance table and power metrics (Tab 4), Cox PH forest plot with hazard ratio table (Tab 5), and RFM segment profiles with channel composition (Tab 6).
 
 **Appendix E — Data Quality Framework:** Triage scoring methodology, duplicate detection, and business logic validation from data_quality.py.
 
