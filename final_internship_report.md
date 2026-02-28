@@ -380,26 +380,6 @@ One way to measure the growth this internship produced is to compare two version
 
 ---
 
-## References
-
-Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates.
-
-Davidson-Pilon, C. (2019). *lifelines: Survival analysis in Python*. Journal of Open Source Software, 4(40), 1317.
-
-Kleinbaum, D. G., & Klein, M. (2012). *Survival analysis: A self-learning text* (3rd ed.). Springer.
-
-Kohavi, R., & Thomke, S. (2017). The surprising power of online experiments. *Harvard Business Review*, 95(5), 74–82.
-
-Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy online controlled experiments: A practical guide to A/B testing*. Cambridge University Press.
-
-McKinney, W. (2022). *Python for data analysis* (3rd ed.). O'Reilly Media.
-
-Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.
-
-Tufte, E. R. (2001). *The visual display of quantitative information* (2nd ed.). Graphics Press.
-
----
-
 ## Appendices
 
 ---
